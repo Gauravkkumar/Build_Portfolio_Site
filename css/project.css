@@ -1,0 +1,130 @@
+
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+
+.header_inner {
+  border-bottom: 4px solid #bababa;
+  margin: 20px 0 20px;
+}
+
+.logo {
+  padding-top: 40px;
+}
+
+.logo img {
+  max-width: 70px;
+}
+
+main img {
+  width: 100%;
+}
+
+
+.header-text {
+  text-transform: uppercase;
+  color: #2d3c49;
+}
+
+@media (max-width: 48em) { 
+
+  .header-text, .logo{
+    text-align: center;
+  }
+
+  .header-text h1 {
+    font-size: 3em;
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+
+  .header-text h3 {
+    font-weight: 400;
+    margin-top: 0.5em;
+  }
+
+}
+
+@media (min-width: 48em) {
+
+  .header-text {
+    text-align: right;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .header-text h1 {
+    font-size: 3em;
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+
+  .header-text h3 {
+    font-weight: 400;
+    margin-top: 0.5em;
+  }
+
+}
+
+.portfolio-details {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.listitem {
+  width: 30%;
+  min-width: 250px;
+}
+
+.listitem img {
+  width: 100%;
+  float: left;
+}
+
+#listitem1, #listitem2 {
+  margin-right: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.portfolio-details h4 {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 400;
+  color: #2d3c49;
+}
+
+footer h2 {
+  text-align: left;
+  font-size: 2em;
+  font-weight: 400;
+  color: #7d97ad;
+}
+
+footer a {
+  color: #2d3c49;
+  text-decoration: none;
+}
+
+article img {
+  width: 100%;
+}
+
+h3 {
+  font-size: 2em;
+  font-family: 'open sans';
+  font-weight: 200;
+  color: #7d97ad;
+
+}
